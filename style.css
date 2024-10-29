@@ -1,0 +1,142 @@
+
+body {
+    font-family: arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color:hotpink;
+    color: #333;
+}
+
+header {
+    padding: 10px;
+    text-align: left;
+}
+
+.index-header {
+    background-image: url('https://facts.net/wp-content/uploads/2023/08/39-facts-about-doja-cat-1692554950.jpg');
+    height: 700px;
+}
+
+header h1 {
+    font-family: arial, sans-serif;
+    font-size: 6em;
+    color: black; 
+    margin-left: 60px;
+    text-align: left;
+}
+p {
+    padding: 40px;
+    max-width: 800px;
+    color: black;
+    font-size: 24px;
+    margin: auto;
+    font-weight: bold;
+    text-align: justify;
+}
+
+nav {
+    background-color: #F7A072;
+    padding: 30px;
+    width: 100%;
+}
+
+nav a {
+    margin: 15px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+main {
+    padding: 20px;
+    max-width: 800px;
+    color: black;
+    margin: auto;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif; 
+    font-size: 18px; 
+}
+
+.description {
+    font-size: 40px;
+    color: black;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.song-list {
+    list-style: none; 
+    padding: 0; 
+}
+
+.song-list li {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /*Gradient effect learnt from W3 schools*/
+    color: white; 
+    padding: 10px;
+    margin: 5px 0; 
+    border-radius: 5px; 
+    border: 2px solid #ff7e5f; 
+    transition: transform 0.3s; 
+}
+
+.song-list li:hover {
+    transform: scale(1.05); /*Learnt psuedo hover class from W3 school*/
+}
+
+.intro-text {
+    font-size: 40px;
+    color: black;
+    margin: 20px 0;
+    text-align: left;
+}
+
+
+.bio-table {
+    text-align: left;
+    font-size: 20px;
+}
+
+
+.bio-image {
+    width: 800px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.bio-text {
+    text-align: justify;
+    font-size: 18px;
+    color: black;
+    line-height: 1.6;
+}
+.album-cover {
+    width: auto;
+    height: 300px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.album-list {
+    list-style: none; 
+    padding: 0; 
+}
+.tour-main {
+    text-align: left;
+    font-size: 24px;
+}
+
+#footer {
+    background-color: #F7A072;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+footer a {
+    color: black; 
+    text-decoration: none;
+    margin: 0 10px; 
+}
+
+footer a:hover {
+    color: gray; /*Learnt psuedo hover class from W3 school*/
+}
